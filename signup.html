@@ -10,6 +10,38 @@ body{
   background: url(island.jpg) no-repeat;
   background-size: cover;
 }
+		header{
+	height: 75vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 80px;
+	background-color: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: black;
+
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
 .form{
   width: 350px;
   position: absolute; 
@@ -67,6 +99,24 @@ body{
 	</style>
 </head>
 <body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo1.png">
+			</div>
+				<ul>
+					<li class="index.html"><a href="#">Home</a></li>
+					<li><a href="promo.html">Promos</a></li>
+					<li><a href="contact.html">Contact us</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<li><a href="signin.html">Sign in</a></li>
+					<li><a href="active">Sign up</a></li>
+				</ul>
+			</div>
+			</div>
+		</header>
 <div class="form">
 	<h2 style="text-align: center;">Sign Up</h2>
 	<div class="textbox">
